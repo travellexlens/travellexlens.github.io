@@ -1,0 +1,11 @@
+body {
+	text-align: center;
+	background: "images/cuba.jpg";
+	background-size: cover;
+	color: #BED5FF;
+	font-family: Arial;
+}
+h1 {
+	text-align: center;
+	color: #A2CDE8;
+}
