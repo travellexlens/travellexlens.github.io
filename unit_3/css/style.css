@@ -1,7 +1,7 @@
 body {
 	text-align: center;
 	background: "images/cuba.jpg";
-	background-size: cover;
+	background-size: contain;
 	color: #BED5FF;
 	font-family: Arial;
 }
