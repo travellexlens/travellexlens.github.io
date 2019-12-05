@@ -27,7 +27,7 @@ ul {
 }
 p {
 	font-size:1em;
-	width: 30am;
+	width: 30em;
 }
 header {
 	text-align: left;
@@ -55,4 +55,7 @@ ul {
 }
 h4 {
 	font-color:#C8E8E7;
+}
+hr {
+	width: 40em;
 }
