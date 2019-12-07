@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Calistoga|Playfair+Display&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Calistoga&display=swap');
 img {
 	width: 500px;
 }
 
 h1 {
-	font-family: 'Playfair Display', 'Arial', sans-serif;
+	font-family: 'Calistoga display', 'Arial', sans-serif;
 }
 
 h2 {
