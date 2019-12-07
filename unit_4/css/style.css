@@ -37,13 +37,14 @@ ul {
 	list-style: none;
 }
 hr {
-	border: none;
 	height: 3px;
 	width: 3em;
 }
 header {
-	background-color: grey;
 	margin: 10px;
 	line-height: 20px;
 	font-size: 25px;
+}
+nav {
+	font-size: 18px;
 }
