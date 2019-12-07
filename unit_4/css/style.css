@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Calistoga|Playfair+Display&display=swap');
 
 img {
 	width: 500px;
@@ -22,4 +23,12 @@ h4 {
 
 p {
 	font-family: 'Playfair Display', 'Arial', sans-serif;
+	line-height: 1.5em;
+	width: 30em;
+	margin:1em auto;
+	text-align: center;
+}
+body {
+	background-color: #FFD9C4;
+	text-align: center;
 }
