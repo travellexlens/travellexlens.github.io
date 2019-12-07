@@ -29,6 +29,15 @@ p {
 	text-align: center;
 }
 body {
-	background-color: #FFD9C4;
+	background-color: #D1E8E3;
 	text-align: center;
+}
+ul {
+	text-align: center;
+	list-style: none;
+}
+hr {
+	border: none;
+	height: 3px;
+	width: 3em;
 }
