@@ -1,22 +1,25 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Bitter&display=swap');
-
-img {
-	width: 500px;
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
 }
-
-h1 {
-	font-family: 'Bitter', 'Arial', sans-serif;
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
 }
-
-p {
-	font-family: 'Playfair Display', 'Arial', sans-serif;
-	line-height: 1.5em;
-	width: 30em;
-	margin:1em auto;
-	text-align: center;
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
 }
-body {
-	background-color: #D1E8E3;
-	text-align: center;
-	font-family: 'Playfair Display', 'Helvetica', sans-serif;
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
+section, div {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
