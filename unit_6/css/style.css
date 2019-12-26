@@ -9,14 +9,13 @@
     border: 1px black solid;
     padding: 20px;
     float: left;
-    width: 30%;
 }
 
 #right {
     background-color: pink;
     border: 1px black solid;
     padding: 20px;
-    float: right;   
+    float: left;   
     width: 62%;
 }
 
@@ -27,4 +26,34 @@
     content: " ";
     clear: both;
     height: 0;
+}
+
+img {
+	width: 100%;
+	heigh: 40px;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    clear: both;
+}
+
+div {
+  font-size: 1.2em;
+  width: 46%;
+  padding: 2%;
+  display: inline-block;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#travel {
+    float: left;
+    width: 50%;
+    height: 6em;
 }
