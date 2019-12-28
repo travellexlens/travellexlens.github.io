@@ -1,36 +1,10 @@
-#two_column {
-    background-color: #FFB7CF;
-    border: 1px black solid;
-    padding: 20px;
-}
-
-#left {
-    background-color: violet;
-    border: 1px black solid;
-    padding: 20px;
-    float: left;
-}
-
-#right {
-    background-color: pink;
-    border: 1px black solid;
-    padding: 10px;
-    float: left;   
-    width: 70%;
-}
-
-.clearfix:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
+nav {
+  font-family: Helvetica, sans-serif;
 }
 
 img {
-	width: 100%;
-	heigh: 40px;
+    overflow:hidden;
+    width: 100%;
 }
 
 footer {
@@ -39,21 +13,45 @@ footer {
     clear: both;
 }
 
-div {
-  font-size: 1.2em;
-  width: 46%;
-  padding: 2%;
-  display: inline-block;
-}
-
 ul {
     list-style: none;
-    margin: 0;
-    padding: 0;
+    margin: 10px;
 }
 
-#travel {
+.interchangeable {
+    width: 300px;
+    padding: 10px;
+    margin: 0 10px;
     float: left;
-    width: 50%;
-    height: 6em;
+}
+
+p {
+  margin: 10px;
+  padding: 5px;
+}
+
+article {
+  width: 500px;
+  margin: 10px auto;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+#contact {
+    display: block;
+}
+
+#overview {
+    float: left;
+}
+
+#solo {
+    max-width: 400px;
+    display: block;
+}
+
+li {
+    float: left;
+    width: 20%;
+    height: 2em;
 }
