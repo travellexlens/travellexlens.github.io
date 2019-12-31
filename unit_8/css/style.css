@@ -1,10 +1,25 @@
-nav {
-  font-family: Helvetica, sans-serif;
+header{
+  padding:0 200px;
+  text-align: center;
+}
+
+nav{
+  margin:auto;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Allerta', sans-serif;
+  letter-spacing: 2px;
+  padding:0 32px;
 }
 
 img {
     overflow:hidden;
     width: 100%;
+}
+
+.whom {
+    font-family: 'Allerta', sans-serif;
+    letter-spacing: 2px;
 }
 
 footer {
@@ -18,13 +33,16 @@ ul {
     margin: 10px;
 }
 
-
 .interchangeable {
     float: left;
 }
 
+.Travel {
+    text-transform: uppercase;
+}
+
 article {
-  width: 500px;
+  width: 30%;
   margin: 10px auto;
   border: 2px solid black;
   padding: 10px;
@@ -41,11 +59,13 @@ p {
 
 #overview {
     float: left;
+      font-family: 'Allerta', sans-serif;
 }
 
 #solo {
-    max-width: 400px;
+    max-width: 15%;
     display: block;
+    float: right;
 }
 
 li {
@@ -72,7 +92,7 @@ li {
     border: 1px black solid;
     padding: 20px;
     float: right;   
-    width: 62%;
+    width: 50%;
 }
 
 .clearfix:after {
