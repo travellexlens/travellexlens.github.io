@@ -113,6 +113,7 @@ footer {
     float:none;
     height: auto;
   }
+}
 
   @media screen and (max-width:1645px){
   .interchangeable{
@@ -128,5 +129,15 @@ footer {
 
   .interchangeable{
     height: 560px;
+  }
+}
+
+@media screen and (max-width:750px){
+  h1{
+    margin:40px 0 0;
+  }
+
+  header{
+    padding:0 2%;
   }
 }
