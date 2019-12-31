@@ -1,6 +1,9 @@
 header{
   padding:0 200px;
   text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  word-spacing: 9px;
 }
 
 nav{
@@ -12,20 +15,18 @@ nav{
   padding:0 32px;
 }
 
-img {
-    overflow:hidden;
-    width: 100%;
+#solo {
+    max-width: 15%;
+    display: block;
+    float: right;
 }
 
-.whom {
-    font-family: 'Allerta', sans-serif;
-    letter-spacing: 2px;
-}
-
-footer {
+.intro {
     text-align: center;
-    padding: 1em 0;
-    clear: both;
+}
+
+.Travel {
+    text-transform: uppercase;
 }
 
 ul {
@@ -37,8 +38,9 @@ ul {
     float: left;
 }
 
-.Travel {
-    text-transform: uppercase;
+img {
+    overflow:hidden;
+    width: 100%;
 }
 
 article {
@@ -59,13 +61,8 @@ p {
 
 #overview {
     float: left;
-      font-family: 'Allerta', sans-serif;
-}
-
-#solo {
-    max-width: 15%;
+    font-family: 'Allerta', sans-serif;
     display: block;
-    float: right;
 }
 
 li {
@@ -102,4 +99,34 @@ li {
     content: " ";
     clear: both;
     height: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    clear: both;
+}
+
+@media screen and (max-width:1000px){
+  .interchangeable{
+    width:100%;
+    float:none;
+    height: auto;
+  }
+
+  @media screen and (max-width:1645px){
+  .interchangeable{
+    width:48%;
+    height: 651px;
+  }
+}
+
+@media screen and (max-width:1220px){
+  header{
+    padding:0 10%;
+  }
+
+  .interchangeable{
+    height: 560px;
+  }
 }
