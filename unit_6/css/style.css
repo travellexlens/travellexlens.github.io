@@ -18,14 +18,9 @@ ul {
     margin: 10px;
 }
 
-.interchangeable {
-    margin: 0 10px;
-    float: left;
-}
 
-p {
-  margin: 10px;
-  padding: 5px;
+.interchangeable {
+    float: left;
 }
 
 article {
@@ -33,6 +28,11 @@ article {
   margin: 10px auto;
   border: 2px solid black;
   padding: 10px;
+}
+
+p {
+  margin: 10px;
+  padding: 5px;
 }
 
 #contact {
@@ -55,18 +55,22 @@ li {
 }
 
 #two_column {
-    background-color: #FFB7CF;
     border: 1px black solid;
     padding: 20px;
 }
 
 #left {
-    background-color: #E582A2;
+    background-color: violet;
     border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
 }
 
 #right {
-    background-color: #E55B88;
+    background-color: pink;
     border: 1px black solid;
     padding: 20px;
+    float: right;   
+    width: 62%;
 }
