@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 header{
   padding:0 200px;
   text-align: center;
@@ -15,18 +21,27 @@ nav{
   padding:0 32px;
 }
 
+.overviewstack {
+  width: 50%;
+  float: right;
+  display: block;
+}
+
 #solo {
     max-width: 15%;
     display: block;
     float: right;
 }
 
-.intro {
-    text-align: center;
+#Travel {
+    text-transform: uppercase;
+    width: 100%;
 }
 
-.Travel {
-    text-transform: uppercase;
+#destinationPick {
+    text-align: center;
+    padding: 100px;
+    display: block;
 }
 
 ul {
@@ -35,6 +50,7 @@ ul {
 }
 
 .interchangeable {
+    width: 33.3%;
     float: left;
 }
 
@@ -71,11 +87,6 @@ li {
     height: 2em;
 }
 
-#two_column {
-    border: 1px black solid;
-    padding: 20px;
-}
-
 #left {
     background-color: violet;
     border: 1px black solid;
@@ -92,15 +103,6 @@ li {
     width: 50%;
 }
 
-.clearfix:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
-}
-
 footer {
     text-align: center;
     padding: 1em 0;
@@ -115,7 +117,7 @@ footer {
   }
 }
 
-  @media screen and (max-width:1645px){
+@media screen and (max-width:1645px){
   .interchangeable{
     width:48%;
     height: 651px;

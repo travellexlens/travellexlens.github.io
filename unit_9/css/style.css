@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+    height: 0;
+    font-size: 0;
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+}
+
+header{
+  padding:70px 3px 70px 3px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+body {
+    background-color: white;
+    font-size: 16px;
+    position: relative;
+}
+
+#TR {
+  text-transform: uppercase;
+  font-size: 60px;
+}
+
+hr {
+    width: 80%;
+    margin: 1em auto;
+}
+
+nav {
+  margin:auto;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Allerta', sans-serif;
+}
+
+nav a:link {
+    padding: 0 32px;
+    font-size: .8em;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#tagline {
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+#IntroP {
+  width: 20%;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+#solo {
+  width: 30%;
+}
+
+#Travel {
+  background-color: cornsilk;
+}
+
+#destinationPick {
+  text-align: center;
+  line-height: 3;
+}
+
+ul {
+    list-style: none;
+}
+
+.interchangeable {
+    padding: auto;
+    float: left;
+    width: 33%;
+}
+
+img {
+    overflow:hidden;
+    width: 100%;
+}
+
+article {
+  width: 30%;
+  margin: 10px auto;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+p {
+  padding: 5px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 50%;
+}
+
+#contact {
+  clear: both;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    clear: both;
